@@ -13,7 +13,7 @@ public class Player : Factor {
     protected override void Start()
     {
         base.Start();
-        baseDamage *= 2f;
+        baseDamage *= 2.5f;
         transform.position = new Vector3(Field.min + 1, Field.min + 1);
         instance = this;
     }

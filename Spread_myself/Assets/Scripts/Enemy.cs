@@ -22,7 +22,7 @@ public class Enemy : Factor {
         instance = this;
         power = 2.5f;
         def = power;
-        baseDamage *= 0.3f;
+        baseDamage *= 0.2f;
         center = new Vector2(Field.max - r - 3, Field.max - r - 3);
         radSpeed = degSpeed * 2 * Mathf.PI / 360;
     }
